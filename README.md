@@ -110,14 +110,9 @@ En cada instancia DataNode (`dfs-datanode-1`, `dfs-datanode-2`, `dfs-datanode-3`
 
 4. **Crear y poblar `app.py`**:
    - Crea el archivo `/opt/dfs/datanode/app.py`.
-   - Copia el contenido de `DataNode.py` del repositorio en `/opt/dfs/datanode/app.py`.
+   - Copia el contenido de `dataNode1.py`/`dataNode2.py`/`dataNode3.py` del repositorio en `/opt/dfs/datanode/app.py`, para su respectivo DataNode.
 
-5. **Editar el puerto en `app.py`**:
-   - Para `dfs-datanode-1`: Establece el puerto en `9001`.
-   - Para `dfs-datanode-2`: Establece el puerto en `9002`.
-   - Para `dfs-datanode-3`: Establece el puerto en `9003`.
-
-6. **Ejecutar el servidor DataNode**:
+5. **Ejecutar el servidor DataNode**:
    ```bash
    source /opt/dfs/datanode/venv/bin/activate
    python /opt/dfs/datanode/app.py
