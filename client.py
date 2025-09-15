@@ -3,18 +3,18 @@ import os
 import sys
 
 # 🚨 ACTUALIZA ESTAS IPS CADA VEZ QUE CAMBIEN
-NAMENODE = "http://3.95.216.105:8080"
+NAMENODE = "http://<IP_PUBLICA_NAMENODE>:8080"
 DATANODES = [
-    "http://44.223.28.235:9001",
-    "http://54.91.84.222:9002",
-    "http://44.220.163.122:9003"
+    "http://<IP_PUBLICA_DATANODE1>:9001",
+    "http://<IP_PUBLICA_DATANODE2>:9002",
+    "http://<IP_PUBLICA_DATANODE3>:9003"
 ]
 
 # Alias para mostrar mensajes más claros
 NODE_NAMES = {
-    "http://44.223.28.235:9001": "DataNode-1",
-    "http://54.91.84.222:9002": "DataNode-2",
-    "http://44.220.163.122:9003": "DataNode-3"
+    "http://<IP_PUBLICA_DATANODE1>:9001": "DataNode-1",
+    "http://<IP_PUBLICA_DATANODE2>:9002": "DataNode-2",
+    "http://<IP_PUBLICA_DATANODE3>:9003": "DataNode-3"
 }
 
 username = None
